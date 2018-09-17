@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GammaComponentComponent } from './gamma-component.component';
+import { GammaComponent } from './gamma.component';
 
 describe('GammaComponentComponent', () => {
-  let component: GammaComponentComponent;
-  let fixture: ComponentFixture<GammaComponentComponent>;
+  let component: GammaComponent;
+  let fixture: ComponentFixture<GammaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GammaComponentComponent ]
+      declarations: [ GammaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GammaComponentComponent);
+    fixture = TestBed.createComponent(GammaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
