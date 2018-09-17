@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Trebuchet MS', Avenir, sans-serif;
+}
+
+section {
+  display: inline-block;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid darkgray;
+  vertical-align: top;
+}
